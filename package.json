@@ -1,0 +1,33 @@
+{
+  "name": "hh-headless-vendors",
+  "version": "1.0.0",
+  "description": "## Purpose",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"./src/**/*.{ts,js}\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfhelix/hh-headless-vendors.git"
+  },
+  "files": ["lib/**/*"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halfhelix/hh-headless-vendors/issues"
+  },
+  "homepage": "https://github.com/halfhelix/hh-headless-vendors#readme"
+}
